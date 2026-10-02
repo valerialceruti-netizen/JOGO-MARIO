@@ -18,14 +18,15 @@
     bottom: 0;
     width: 80px;
     animation: pipe-animation 2s infinite linear;
+    
+    /*animation pipe-animation 2s infinite linear; */ b
 }
-
+ 
 @keyframes pipe-animation {
     from {
         right: -80px;
     }
-
-    to {
+ite    to {
         right: 100%;
     }
 }
